@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Archivo styles.css */
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none; /* Quita el subrayado del enlace */
+    color: #fff; /* Color del texto */
+    background-color: #007bff; /* Color de fondo */
+    border: 2px solid #007bff; /* Borde del botón */
+    border-radius: 5px; /* Esquinas redondeadas */
+    transition: background-color 0.3s, border-color 0.3s; /* Efecto de transición */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+    border-color: #0056b3; /* Color del borde al pasar el ratón */
+    text-decoration: none; /* Mantener sin subrayado */
+}
+
+.button:active {
+    background-color: #003d7a; /* Color de fondo al hacer clic */
+    border-color: #003d7a; /* Color del borde al hacer clic */
+}
+
+.button:focus {
+    outline: none; /* Quita el contorno predeterminado en el foco */
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Agrega un efecto de enfoque */
+}
+
+.btnUbicacion {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none; /* Quita el subrayado del enlace */
+    color: #0a0a0a; /* Color del texto */
+    background-color: #eeff00; /* Color de fondo */
+    border: 2px solid #eeff00; /* Borde del botón */
+    border-radius: 5px; /* Esquinas redondeadas */
+    transition: background-color 0.3s, border-color 0.3s; /* Efecto de transición */
+}
+
+.btnUbicacion:hover {
+    background-color: #a7b300; /* Color de fondo al pasar el ratón */
+    border-color: #a7b300; /* Color del borde al pasar el ratón */
+    text-decoration: none; /* Mantener sin subrayado */
+}
+
+.btnUbicacion:active {
+    background-color: #003d7a; /* Color de fondo al hacer clic */
+    border-color: #003d7a; /* Color del borde al hacer clic */
+}
+
+.btnUbicacion:focus {
+    outline: none; /* Quita el contorno predeterminado en el foco */
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Agrega un efecto de enfoque */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Para que no haya espacio entre los bordes de las celdas */
+    margin: 25px 0;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px 15px; /* Espacio interno en las celdas */
+    border: 1px solid #dddddd; /* Bordes grises claros */
+}
+
+th {
+    background-color: #f2f2f2; /* Color de fondo de las cabeceras */
+    color: #333; /* Color del texto en las cabeceras */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Color de fondo para las filas pares */
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Color de fondo cuando el ratón pasa por encima */
+}
+
